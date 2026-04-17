@@ -1,0 +1,20 @@
+@page
+@model SkyMineralsModern.Pages.TestDBModel
+
+<h1>PostgreSQL Connection Test</h1>
+
+@if (Model.IsConnected)
+{
+    <div style="color: green; padding: 20px; border: 1px solid green;">
+        <h2>✅ Success!</h2>
+        <p><strong>Database:</strong> @Model.Database</p>
+        <p><strong>Server Version:</strong> @Model.ServerVersion</p>
+    </div>
+}
+else
+{
+    <div style="color: red; padding: 20px; border: 1px solid red;">
+        <h2>❌ Error</h2>
+        <p>@Model.ErrorMessage</p>
+    </div>
+}

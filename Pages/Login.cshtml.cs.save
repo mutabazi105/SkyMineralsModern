@@ -1,0 +1,213 @@
+ng Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Configuration;
+using Npgsql;
+using System;
+
+namespace SkyMineralsModern.Pages
+{
+    public class LoginModel : PageModel
+    {
+        private readonly IConfiguration _configuration;
+
+        [BindProperty]
+        public string Username { get; set; }
+
+        [BindProperty]
+        public string Password { get; set; }
+
+        public string Message { get; set; }
+
+        public LoginModel(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
+        public void OnGet()
+        {
+            // Just display the login page
+        }
+
+        public IActionResult OnPost()
+        {
+            try
+            {
+                string connString = _configuration.GetConnectionString("PostgresConnection");
+
+                using var conn = new NpgsqlConnection(connString);
+                conn.Open();
+
+                string query = "SELECT Staff_id, Role FROM Staff WHERE Username = @username AND Password = @password AND Lock_unlock = 'unlock'";
+
+                using var cmd = new NpgsqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@username", Username);
+                cmd.Parameters.AddWithValue("@password", Password);
+
+                using var reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    // Login successful - store in session
+                    HttpContext.Session.SetString("StaffId", reader["Staff_id"].ToString());
+                    HttpContext.Session.SetString("Role", reader["Role"].ToString());
+
+                    return RedirectToPage("/Index");
+                }
+                else
+                {
+                    Message = "Invalid username or password";
+                    return Page();
+                }
+            }
+            catch (Exception ex)
+            {
+                Message = "Error: " + ex.Message;
+                return Page();
+            }
+        }
+    }
+}using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Npgsql;
+using Microsoft.Extensions.Configuration;
+using System;
+
+namespace SkyMineralsModern.Pages
+{
+    public class LoginModel : PageModel
+    {
+        private readonly IConfiguration _configuration;
+        
+        [BindProperty]
+        public string Username { get; set; }
+        
+        [BindProperty]
+        public string Password { get; set; }
+        
+        public string Message { get; set; }
+        
+        public LoginModel(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+        
+        public void OnGet()
+        {
+            // Just show the login page
+        }
+        
+        public IActionResult OnPost()
+        {
+            try
+            {
+                string connString = _configuration.GetConnectionString("PostgresConnection");
+                
+                using var conn = new NpgsqlConnection(connString);
+                conn.Open();
+                
+                string query = "SELECT Staff_id, Role FROM Staff WHERE Username = @username AND Password = @password AND Lock_unlock = 'unlock'";
+                
+                using var cmd = new NpgsqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@username", Username);
+                cmd.Parameters.AddWithValue("@password", Password);
+                
+                using var reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    // Login successful
+                    HttpContext.Session.SetString("StaffId", reader["Staff_id"].ToString());
+                    HttpContext.Session.SetString("Role", reader["Role"].ToString());
+                    
+                    return RedirectToPage("/Index");
+                }
+                else
+                {
+                    Message = "Invalid username or password";
+                    return Page();
+                }
+            }
+            catch (Exception ex)
+            {
+                Message = "Error: " + ex.Message;
+                return Page();
+            }
+        }
+    }
+}using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Npgsql;
+using Microsoft.Extensions.Configuration;
+using System;
+
+namespace SkyMineralsModern.Pages
+{
+    public class LoginModel : PageModel
+    {
+        private readonly IConfiguration _configuration;
+        
+        [BindProperty]
+        public string Username { get; set; }
+        
+        [BindProperty]
+        public string Password { get; set; }
+        
+        public string Message { get; set; }
+        
+        public LoginModel(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+        
+        public void OnGet()
+        {
+            // Just show the login page
+        }
+        
+        public IActionResult OnPost()
+        {
+            try
+            {
+                string connString = _configuration.GetConnectionString("PostgresConnection");
+                
+                using var conn = new NpgsqlConnection(connString);
+                conn.Open();
+                
+                string query = "SELECT Staff_id, Role FROM Staff WHERE Username = @username AND Password = @password AND Lock_unlock = 'unlock'";
+                
+                using var cmd = new NpgsqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@username", Username);
+                cmd.Parameters.AddWithValue("@password", Password);
+                
+                using var reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    // Login successful
+                    HttpContext.Session.SetString("StaffId", reader["Staff_id"].ToString());
+                    HttpContext.Session.SetString("Role", reader["Role"].ToString());
+                    
+                    return RedirectToPage("/Index");
+                }
+                else
+                {
+                    Message = "Invalid username or password";
+                    return Page();
+                }
+            }
+            catch (Exception ex)
+            {
+                Message = "Error: " + ex.Message;
+                return Page();
+            }
+        }
+    }
+}using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+nAaamespace SkyMineralsModern.Pages
+{
+    public class LoginModel : PageModel
+    {
+        public void OnGet()
+        {
+        }
+    }
+}

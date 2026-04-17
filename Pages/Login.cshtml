@@ -1,0 +1,140 @@
+@page
+@model SkyMineralsModern.Pages.LoginModel
+@{
+    Layout = null;
+    ViewData["Title"] = "Sky Minerals Logon";
+}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Sky Minerals Logon</title>
+    <style type="text/css">
+        .style1 {
+            width: 100%;
+            height: 501px;
+        }
+        .style2 {
+            width: 100%;
+            color: #FFFFFF;
+            font-size: 15pt;
+        }
+        .style3 {
+            color: #FFFFFF;
+            font-size: 15pt;
+        }
+        .style4 {
+            background-color: #006699;
+        }
+        .style5 {
+            text-align: center;
+            height: 25%;
+            width: 42%;
+        }
+        .style7 {
+            height: 25%;
+            width: 42%;
+        }
+        .style8 {
+            height: 50px;
+            width: 42%;
+        }
+        .style9 {
+            font-weight: normal;
+        }
+        .style10 {
+            width: 642px;
+            height: 62px;
+        }
+        .style11 {
+            text-align: center;
+            width: 692px;
+        }
+        .auto-style1 {
+            height: 25%;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <form method="post">
+        <table class="style1">
+            <tr>
+                <td style="background-color: #FFFFFF">
+                    &nbsp;
+                </td>
+                <td class="style7">
+                    <img alt="" class="style10" src="/Photos/hello.jpg" />
+                    <br />
+                </td>
+                <td style="background-color: #FFFFFF">
+                    <br />
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #FFFFFF">
+                    &nbsp;
+                </td>
+                <td style="background-color: #333333;" class="style8">
+                    <br />
+                    <div style="background-color: #009999; font-weight: bold; font-size: large; color: white; height: 27px; width: 697px; text-align: center;">
+                        <span><strong>System Logon</strong></span>
+                    </div>
+                    <br />
+                    <div style="background-color: #006666; height: 206px; width: 698px;">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <br />
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label style="font-weight: bold; font-size: x-large;">User ID:</label>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="text" asp-for="Username" style="width: 179px;" placeholder="User ID" autofocus />
+                        <br />
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label style="font-weight: bold; font-size: x-large;">Password:</label>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="password" asp-for="Password" style="width: 180px;" placeholder="Password" />
+                        <br />
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button type="submit" style="font-weight: bold; font-size: large; width: 92px;">Logon</button>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </div>
+                    <br />
+                </td>
+                <td style="background-color: #FFFFFF">
+                    &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #FFFFFF" class="auto-style1">
+                </td>
+                <td class="style5" style="background-color: #333333;">
+                    <br class="style3" />
+                    <span class="style2"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="style4">Copyright <span>©</span>2015-2017 Sky Minerals Ltd - All Rights Reserved</span></strong></span>
+                </td>
+                <td style="background-color: #FFFFFF" class="auto-style1">
+                </td>
+            </tr>
+        </table>
+        
+        @if (!string.IsNullOrEmpty(Model.Message))
+        {
+            <div style="color: red; text-align: center; margin-top: 10px;">
+                @Model.Message
+            </div>
+        }
+    </form>
+</body>
+</html>
