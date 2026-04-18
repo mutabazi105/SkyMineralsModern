@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - SKY Minerals MIS</title>
+    <style>
+        /* DEFAULTS */
+        body {
+            background: #b6b7bc url('/Photos/home2.jpg') repeat;
+            font-size: .80em;
+            font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            color: #696969;
+        }
+        
+        .page {
+            width: 960px;
+            background-color: #fff;
+            margin: 20px auto 0px auto;
+            border: 1px solid #496077;
+        }
+        
+        .header {
+            background: #4b6c9e;
+            width: 100%;
+        }
+        
+        .loginDisplay {
+            background-color: #FFFFFF;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .style2 {
+            width: 939px;
+            height: 102px;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        
+        .hideSkiplink {
+            background-color: #3a4f63;
+            width: 100%;
+        }
+        
+        .menu {
+            padding: 4px 0px 4px 8px;
+        }
+        
+        .menu ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .menu ul li {
+            display: inline;
+        }
+        
+        .menu ul li a {
+            background-color: #465c71;
+            border: 1px #4e667d solid;
+            color: #dde4ec;
+            display: inline-block;
+            line-height: 1.35em;
+            padding: 4px 20px;
+            text-decoration: none;
+        }
+        
+        .menu ul li a:hover {
+            background-color: #bfcbd6;
+            color: #465c71;
+        }
+        
+        .main {
+            padding: 0px 12px;
+            margin: 12px 8px 8px 8px;
+            min-height: 420px;
+        }
+        
+        .footer {
+            background-color: #333333;
+            color: #CCCCCC;
+            font-weight: bold;
+            font-size: medium;
+            text-align: center;
+            padding: 8px;
+        }
+        
+        .style1 {
+            color: #FFFFFF;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th {
+            background-color: #465c71;
+            color: white;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .form-container {
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+        
+        .btn-add {
+            background-color: #28a745;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn-delete {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 10px;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+        
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 10px;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+    
+    <div class="header">
+        <div class="loginDisplay">
+            <img src="/Photos/hello.jpg" class="style2" alt="SKY Minerals" />
+        </div>
+        <div class="clear hideSkiplink">
+            <div class="menu">
+                <ul>
+                    <li><a href="/Homeadmin">Home</a></li>
+                    <li><a href="/Staff">Staff</a></li>
+                    <li><a href="/Minerals">Minerals</a></li>
+                    <li><a href="/Tagged">Tagged</a></li>
+                    <li><a href="/Sales">Sales</a></li>
+                    <li><a href="/Production">Production</a></li>
+                    <li><a href="/Team">Team</a></li>
+                    <li><a href="/Reports">Reports</a></li>
+                    <li><a href="/Login">Logout/Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main">
+        @RenderBody()
+    </div>
+    
+    <div class="footer">
+        <span class="style1">Copyright © 2015-2026 Sky Minerals Ltd - All Rights Reserved</span>
+    </div>
+    
+</div>
+
+</body>
+</html>

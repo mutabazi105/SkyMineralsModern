@@ -99,3 +99,5 @@
 /home/bernard/Projects/SkyMineralsModern/obj/Debug/net9.0/SkyMineralsModern.pdb
 /home/bernard/Projects/SkyMineralsModern/obj/Debug/net9.0/SkyMineralsModern.genruntimeconfig.cache
 /home/bernard/Projects/SkyMineralsModern/obj/Debug/net9.0/ref/SkyMineralsModern.dll
+/home/bernard/Projects/SkyMineralsModern/obj/Debug/net9.0/SkyMineralsModern.sourcelink.json
+/home/bernard/Projects/SkyMineralsModern/obj/Debug/net9.0/compressed/jx4y7ne50n-vwa2vi0u1d.gz

@@ -10,87 +10,34 @@
     }
 }
 
-<h1 style="color: #2c3e50;">Sales Management</h1>
+<h1>Sales Management</h1>
 <hr />
 
-<!-- Record New Sale Form -->
-<div style="background: #f4f4f4; padding: 20px; margin-bottom: 30px; border-radius: 8px;">
+<div style="background: #f4f4f4; padding: 20px; margin-bottom: 30px;">
     <h3>Record New Sale</h3>
     <form method="post">
         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
-            <div>
-                <label>Mineral Type:</label>
-                <select asp-for="NewSale.Minls_code" style="width: 100%; padding: 8px;" required>
-                    <option value="">Select Mineral</option>
-                    @foreach (var mineral in Model.MineralsList)
-                    {
-                        <option value="@mineral.Minls_code">@mineral.Type</option>
-                    }
-                </select>
-            </div>
-            <div>
-                <label>Quantity (kg):</label>
-                <input type="number" step="0.01" asp-for="NewSale.Quantity_sold" style="width: 100%; padding: 8px;" required />
-            </div>
-            <div>
-                <label>Grade (Tantale %):</label>
-                <input type="number" step="0.01" asp-for="NewSale.Tantale" style="width: 100%; padding: 8px;" required />
-            </div>
-            <div>
-                <label>Counter:</label>
-                <select asp-for="NewSale.Counter_code" style="width: 100%; padding: 8px;" required>
-                    <option value="">Select Counter</option>
-                    @foreach (var counter in Model.CountersList)
-                    {
-                        <option value="@counter.Counter_code">@counter.Name</option>
-                    }
-                </select>
-            </div>
+            <div><label>Mineral:</label><select asp-for="NewSale.Minls_code" style="width: 100%;"><option value="">Select</option>@foreach (var m in Model.MineralsList){<option value="@m.Minls_code">@m.Type</option>}</select></div>
+            <div><label>Quantity (kg):</label><input type="number" step="0.01" asp-for="NewSale.Quantity_sold" style="width: 100%;" /></div>
+            <div><label>Grade (%):</label><input type="number" step="0.01" asp-for="NewSale.Tantale" style="width: 100%;" /></div>
+            <div><label>Counter:</label><select asp-for="NewSale.Counter_code" style="width: 100%;"><option value="">Select</option>@foreach (var c in Model.CountersList){<option value="@c.Counter_code">@c.Name</option>}</select></div>
         </div>
-        <button type="submit" style="margin-top: 15px; padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 5px;">Record Sale</button>
+        <button type="submit" style="background: #28a745; color: white; padding: 8px 15px; border: none;">Record Sale</button>
     </form>
 </div>
 
-<!-- Sales List Table -->
 <h3>Recent Sales</h3>
 <table style="width: 100%; border-collapse: collapse;">
-    <thead>
-        <tr style="background: #2c3e50; color: white;">
-            <th style="padding: 10px;">Sale ID</th>
-            <th style="padding: 10px;">Mineral</th>
-            <th style="padding: 10px;">Quantity (kg)</th>
-            <th style="padding: 10px;">Grade (%)</th>
-            <th style="padding: 10px;">Counter</th>
-            <th style="padding: 10px;">Date</th>
-        </tr>
-    </thead>
+    <thead><tr style="background: #465c71; color: white;"><th>ID</th><th>Mineral</th><th>Quantity</th><th>Grade</th><th>Counter</th><th>Date</th></tr></thead>
     <tbody>
-        @if (Model.SalesList != null && Model.SalesList.Any())
+        @foreach (var sale in Model.SalesList)
         {
-            @foreach (var sale in Model.SalesList)
-            {
-                <tr style="border-bottom: 1px solid #ddd;">
-                    <td style="padding: 10px;">@sale.Sales_id</td>
-                    <td style="padding: 10px;">@sale.MineralType</td>
-                    <td style="padding: 10px;">@sale.Quantity_sold</td>
-                    <td style="padding: 10px;">@sale.Tantale</td>
-                    <td style="padding: 10px;">@sale.CounterName</td>
-                    <td style="padding: 10px;">@sale.Sales_date.ToString("yyyy-MM-dd")</td>
-                </tr>
-            }
-        }
-        else
-        {
-            <tr>
-                <td colspan="6" style="padding: 20px; text-align: center;">No sales recorded yet.</td>
-            </tr>
+            <tr><td>@sale.Sales_id</td><td>@sale.MineralType</td><td>@sale.Quantity_sold</td><td>@sale.Tantale</td><td>@sale.CounterName</td><td>@sale.Sales_date.ToString("yyyy-MM-dd")</td></tr>
         }
     </tbody>
 </table>
 
 @if (!string.IsNullOrEmpty(Model.Message))
 {
-    <div style="margin-top: 20px; padding: 10px; background: @(Model.Message.Contains("success") ? "#d4edda" : "#f8d7da"); color: @(Model.Message.Contains("success") ? "#155724" : "#721c24"); border-radius: 5px;">
-        @Model.Message
-    </div>
+    <div style="background: #d4edda; color: #155724; padding: 10px; margin-top: 15px;">@Model.Message</div>
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZZAthI+t/hhSX/zcOET37b96yKhW50Gd98eZ5V+OMnE=",
+  "Hash": "GhnIduC26eS0XjcZMevWgfMBOInMmQJ3pB6kv+FD5J0=",
   "Source": "SkyMineralsModern",
   "BasePath": "_content/SkyMineralsModern",
   "Mode": "Default",
@@ -729,6 +729,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/bernard/Projects/SkyMineralsModern/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/obj/Debug/net9.0/compressed/jx4y7ne50n-vwa2vi0u1d.gz",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Styles/Site#[.{fingerprint=vwa2vi0u1d}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Styles/Site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "v2rnl4oglu",
+      "Integrity": "KdJvNpV1d//5ReAWAshBgdnc8jN+ma5L0P5KhVA+ifA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Styles/Site.css"
     },
     {
       "Identity": "/home/bernard/Projects/SkyMineralsModern/obj/Debug/net9.0/compressed/k9rh32flf4-j5mq2jizvt.gz",
@@ -2726,6 +2747,174 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
     },
     {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/8c37b82c62.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/8c37b82c62#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "215bwuef4q",
+      "Integrity": "yhmAJXjkAzWdszjk4eINL1rPVpnv9wykJ3CI0/T68AY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/8c37b82c62.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/about2_2.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/about2_2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vaxgggglsm",
+      "Integrity": "aWMviiLDt+aayx/L9kv4znSI75msXjwz+IMZcl5bwqw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/about2_2.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/bg-logoheader.png",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/bg-logoheader#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cotr2se3mr",
+      "Integrity": "BF8/SjTAjrKAiyLGAy4o19i4AQ/yFz7XZWG9oDLrgDU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/bg-logoheader.png"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/conflict_minerals_eastern_congo.jpg.png",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/conflict_minerals_eastern_congo.jpg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0q30hvlzg4",
+      "Integrity": "2K+MJO4E90QuJ8mWZGX+tB3rRKfyrrnoRvcyR9mxopM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/conflict_minerals_eastern_congo.jpg.png"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/EIA SKY CERTIFICATE_Conditions0002.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/EIA SKY CERTIFICATE_Conditions0002#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pf5qlfwlpe",
+      "Integrity": "Ba8a22Rnj64fp2OUFu8mGlD0ppyFFJI1NDDAJ0nV3Zw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/EIA SKY CERTIFICATE_Conditions0002.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/EIA SKY CERTIFICATE_Conditions2.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/EIA SKY CERTIFICATE_Conditions2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "blni4efcmt",
+      "Integrity": "EUww5SpTbS+GrLxO0yQkTwMrwUh1yk8ZzYF6lCa447c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/EIA SKY CERTIFICATE_Conditions2.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/EIA SKY CERTIFICATE.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/EIA SKY CERTIFICATE#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1t8o44vr1r",
+      "Integrity": "lQbT73rnA3U/pc9tKNMLAIIS742jpPjKOh7sdgmX0/c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/EIA SKY CERTIFICATE.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/google-chrome-print.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/google-chrome-print#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kk1rf90csi",
+      "Integrity": "tHMCk8X4+fVZ9jWN8ZXXFFLm8E1hTVd06mlj0eQIeMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/google-chrome-print.jpg"
+    },
+    {
       "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/hello.jpg",
       "SourceId": "SkyMineralsModern",
       "SourceType": "Discovered",
@@ -2745,6 +2934,321 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Photos/hello.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/Hello2.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/Hello2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v9mpecjwkr",
+      "Integrity": "A+vO+jbBjMN4reN89JOL5KzSI+8qn0Qm96bJNm/m9bc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/Hello2.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/home2.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/home2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ya0f5a04z4",
+      "Integrity": "tsOuqjB6B1ebcuHGgtzPHr95ufWY/eWhajOTUvItG6o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/home2.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/image-2.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/image-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "29dh3qq5zv",
+      "Integrity": "qjfUG8ZMFQb+YIA5ovl7l1uK3wdmN7nXDvwNrN1Hhx0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/image-2.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/image-3.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/image-3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifyfj52ilg",
+      "Integrity": "8tzEoA9ieMP2SQfrozDmVxOrJEvDo7vWQmbV8gQ7deQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/image-3.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/Minerals1hgh.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/Minerals1hgh#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2otnd5ut29",
+      "Integrity": "DonV9U1sPHndyef9vYdH4J0Ti6NjME1h7rpFF4LZSzk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/Minerals1hgh.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/Print.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/Print#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kk1rf90csi",
+      "Integrity": "tHMCk8X4+fVZ9jWN8ZXXFFLm8E1hTVd06mlj0eQIeMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/Print.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/save.png",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/save#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dopjk3v2vq",
+      "Integrity": "Qwdb/QlsByDF1NJN0W/G6O3NXIYM9FCmUSj/2UfpYOs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/save.png"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/search.png",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/search#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "venvhbb3z7",
+      "Integrity": "uUqxoijKX3CuICNRhQaHMkID+EkEDMpx/YpCnnIj8Ik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/search.png"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/strategy1_1.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/strategy1_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xhtddoo3w7",
+      "Integrity": "laP2sWDajuUXjV3O3/iOfTKGSV/oQzp9nsRKu+1FcyU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/strategy1_1.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/strategy1_2.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/strategy1_2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hgsazf956a",
+      "Integrity": "b+JK3x9Eri6old5hYizivcePOZNVnt0eHRC9w8h31e8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/strategy1_2.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/strategy1_3.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/strategy1_3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "njrqvir91p",
+      "Integrity": "8wR57q69U51NbEFBeq3HvqtoD7cIldFjyizlaopc7l4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/strategy1_3.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/strategy1_4.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/strategy1_4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nj4kgeb2wk",
+      "Integrity": "A4zPBAuywzolJDuS6L4sCu8yAXnN8YFOi0iui0M+JvE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/strategy1_4.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/symbol_flagofisrael.jpg",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/symbol_flagofisrael#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "buii83n4iz",
+      "Integrity": "45M7DMbEYqNF4ZNtgHxKK9CvDgXuM8vV0s/Dv/MJtFw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/symbol_flagofisrael.jpg"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/toplogonew.png",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Photos/toplogonew#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v1ha3m54ac",
+      "Integrity": "07+8cKZnTHg3cdzyh+1pWWoVjxGcedj/Xaen3wNuTeA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Photos/toplogonew.png"
+    },
+    {
+      "Identity": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Styles/Site.css",
+      "SourceId": "SkyMineralsModern",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/bernard/Projects/SkyMineralsModern/wwwroot/",
+      "BasePath": "_content/SkyMineralsModern",
+      "RelativePath": "Styles/Site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vwa2vi0u1d",
+      "Integrity": "QdUjMLkYEV/FwRFd6peLSf8rz92T/2qiOYP6c5g0KXw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Styles/Site.css"
     }
   ],
   "Endpoints": [
@@ -21307,6 +21811,662 @@
       ]
     },
     {
+      "Route": "Photos/8c37b82c62.215bwuef4q.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/8c37b82c62.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7070"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yhmAJXjkAzWdszjk4eINL1rPVpnv9wykJ3CI0/T68AY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "215bwuef4q"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/8c37b82c62.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yhmAJXjkAzWdszjk4eINL1rPVpnv9wykJ3CI0/T68AY="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/8c37b82c62.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/8c37b82c62.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7070"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yhmAJXjkAzWdszjk4eINL1rPVpnv9wykJ3CI0/T68AY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yhmAJXjkAzWdszjk4eINL1rPVpnv9wykJ3CI0/T68AY="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/about2_2.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/about2_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aWMviiLDt+aayx/L9kv4znSI75msXjwz+IMZcl5bwqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aWMviiLDt+aayx/L9kv4znSI75msXjwz+IMZcl5bwqw="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/about2_2.vaxgggglsm.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/about2_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aWMviiLDt+aayx/L9kv4znSI75msXjwz+IMZcl5bwqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vaxgggglsm"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/about2_2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aWMviiLDt+aayx/L9kv4znSI75msXjwz+IMZcl5bwqw="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/bg-logoheader.cotr2se3mr.png",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/bg-logoheader.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BF8/SjTAjrKAiyLGAy4o19i4AQ/yFz7XZWG9oDLrgDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cotr2se3mr"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/bg-logoheader.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BF8/SjTAjrKAiyLGAy4o19i4AQ/yFz7XZWG9oDLrgDU="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/bg-logoheader.png",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/bg-logoheader.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BF8/SjTAjrKAiyLGAy4o19i4AQ/yFz7XZWG9oDLrgDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BF8/SjTAjrKAiyLGAy4o19i4AQ/yFz7XZWG9oDLrgDU="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/conflict_minerals_eastern_congo.jpg.0q30hvlzg4.png",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/conflict_minerals_eastern_congo.jpg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "255562"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2K+MJO4E90QuJ8mWZGX+tB3rRKfyrrnoRvcyR9mxopM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0q30hvlzg4"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/conflict_minerals_eastern_congo.jpg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2K+MJO4E90QuJ8mWZGX+tB3rRKfyrrnoRvcyR9mxopM="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/conflict_minerals_eastern_congo.jpg.png",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/conflict_minerals_eastern_congo.jpg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "255562"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2K+MJO4E90QuJ8mWZGX+tB3rRKfyrrnoRvcyR9mxopM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2K+MJO4E90QuJ8mWZGX+tB3rRKfyrrnoRvcyR9mxopM="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/EIA SKY CERTIFICATE_Conditions0002.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/EIA SKY CERTIFICATE_Conditions0002.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "516597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ba8a22Rnj64fp2OUFu8mGlD0ppyFFJI1NDDAJ0nV3Zw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ba8a22Rnj64fp2OUFu8mGlD0ppyFFJI1NDDAJ0nV3Zw="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/EIA SKY CERTIFICATE_Conditions0002.pf5qlfwlpe.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/EIA SKY CERTIFICATE_Conditions0002.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "516597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ba8a22Rnj64fp2OUFu8mGlD0ppyFFJI1NDDAJ0nV3Zw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pf5qlfwlpe"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/EIA SKY CERTIFICATE_Conditions0002.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ba8a22Rnj64fp2OUFu8mGlD0ppyFFJI1NDDAJ0nV3Zw="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/EIA SKY CERTIFICATE_Conditions2.blni4efcmt.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/EIA SKY CERTIFICATE_Conditions2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "498633"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EUww5SpTbS+GrLxO0yQkTwMrwUh1yk8ZzYF6lCa447c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "blni4efcmt"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/EIA SKY CERTIFICATE_Conditions2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EUww5SpTbS+GrLxO0yQkTwMrwUh1yk8ZzYF6lCa447c="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/EIA SKY CERTIFICATE_Conditions2.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/EIA SKY CERTIFICATE_Conditions2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "498633"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EUww5SpTbS+GrLxO0yQkTwMrwUh1yk8ZzYF6lCa447c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EUww5SpTbS+GrLxO0yQkTwMrwUh1yk8ZzYF6lCa447c="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/EIA SKY CERTIFICATE.1t8o44vr1r.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/EIA SKY CERTIFICATE.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "467574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lQbT73rnA3U/pc9tKNMLAIIS742jpPjKOh7sdgmX0/c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1t8o44vr1r"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/EIA SKY CERTIFICATE.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lQbT73rnA3U/pc9tKNMLAIIS742jpPjKOh7sdgmX0/c="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/EIA SKY CERTIFICATE.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/EIA SKY CERTIFICATE.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "467574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lQbT73rnA3U/pc9tKNMLAIIS742jpPjKOh7sdgmX0/c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lQbT73rnA3U/pc9tKNMLAIIS742jpPjKOh7sdgmX0/c="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/google-chrome-print.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/google-chrome-print.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "218065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tHMCk8X4+fVZ9jWN8ZXXFFLm8E1hTVd06mlj0eQIeMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tHMCk8X4+fVZ9jWN8ZXXFFLm8E1hTVd06mlj0eQIeMU="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/google-chrome-print.kk1rf90csi.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/google-chrome-print.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "218065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tHMCk8X4+fVZ9jWN8ZXXFFLm8E1hTVd06mlj0eQIeMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kk1rf90csi"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/google-chrome-print.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tHMCk8X4+fVZ9jWN8ZXXFFLm8E1hTVd06mlj0eQIeMU="
+        }
+      ]
+    },
+    {
       "Route": "Photos/hello.i1ipvtqr15.jpg",
       "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/hello.jpg",
       "Selectors": [],
@@ -21329,7 +22489,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Mar 2026 20:03:04 GMT"
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21374,7 +22534,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Mar 2026 20:03:04 GMT"
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21385,6 +22545,1154 @@
         {
           "Name": "integrity",
           "Value": "sha256-lpqulTWUZO0gF0FbG053dm9KvnNNoRpXnEuFJfKZbuE="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/Hello2.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/Hello2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A+vO+jbBjMN4reN89JOL5KzSI+8qn0Qm96bJNm/m9bc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A+vO+jbBjMN4reN89JOL5KzSI+8qn0Qm96bJNm/m9bc="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/Hello2.v9mpecjwkr.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/Hello2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A+vO+jbBjMN4reN89JOL5KzSI+8qn0Qm96bJNm/m9bc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v9mpecjwkr"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/Hello2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A+vO+jbBjMN4reN89JOL5KzSI+8qn0Qm96bJNm/m9bc="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/home2.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/home2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tsOuqjB6B1ebcuHGgtzPHr95ufWY/eWhajOTUvItG6o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tsOuqjB6B1ebcuHGgtzPHr95ufWY/eWhajOTUvItG6o="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/home2.ya0f5a04z4.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/home2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tsOuqjB6B1ebcuHGgtzPHr95ufWY/eWhajOTUvItG6o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ya0f5a04z4"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/home2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tsOuqjB6B1ebcuHGgtzPHr95ufWY/eWhajOTUvItG6o="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/image-2.29dh3qq5zv.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/image-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "261907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qjfUG8ZMFQb+YIA5ovl7l1uK3wdmN7nXDvwNrN1Hhx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "29dh3qq5zv"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/image-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qjfUG8ZMFQb+YIA5ovl7l1uK3wdmN7nXDvwNrN1Hhx0="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/image-2.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/image-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "261907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qjfUG8ZMFQb+YIA5ovl7l1uK3wdmN7nXDvwNrN1Hhx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qjfUG8ZMFQb+YIA5ovl7l1uK3wdmN7nXDvwNrN1Hhx0="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/image-3.ifyfj52ilg.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/image-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "207566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8tzEoA9ieMP2SQfrozDmVxOrJEvDo7vWQmbV8gQ7deQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifyfj52ilg"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/image-3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8tzEoA9ieMP2SQfrozDmVxOrJEvDo7vWQmbV8gQ7deQ="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/image-3.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/image-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "207566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8tzEoA9ieMP2SQfrozDmVxOrJEvDo7vWQmbV8gQ7deQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8tzEoA9ieMP2SQfrozDmVxOrJEvDo7vWQmbV8gQ7deQ="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/Minerals1hgh.2otnd5ut29.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/Minerals1hgh.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DonV9U1sPHndyef9vYdH4J0Ti6NjME1h7rpFF4LZSzk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2otnd5ut29"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/Minerals1hgh.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DonV9U1sPHndyef9vYdH4J0Ti6NjME1h7rpFF4LZSzk="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/Minerals1hgh.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/Minerals1hgh.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DonV9U1sPHndyef9vYdH4J0Ti6NjME1h7rpFF4LZSzk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DonV9U1sPHndyef9vYdH4J0Ti6NjME1h7rpFF4LZSzk="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/Print.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/Print.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "218065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tHMCk8X4+fVZ9jWN8ZXXFFLm8E1hTVd06mlj0eQIeMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tHMCk8X4+fVZ9jWN8ZXXFFLm8E1hTVd06mlj0eQIeMU="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/Print.kk1rf90csi.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/Print.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "218065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tHMCk8X4+fVZ9jWN8ZXXFFLm8E1hTVd06mlj0eQIeMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kk1rf90csi"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/Print.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tHMCk8X4+fVZ9jWN8ZXXFFLm8E1hTVd06mlj0eQIeMU="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/save.dopjk3v2vq.png",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/save.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qwdb/QlsByDF1NJN0W/G6O3NXIYM9FCmUSj/2UfpYOs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dopjk3v2vq"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/save.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qwdb/QlsByDF1NJN0W/G6O3NXIYM9FCmUSj/2UfpYOs="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/save.png",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/save.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qwdb/QlsByDF1NJN0W/G6O3NXIYM9FCmUSj/2UfpYOs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qwdb/QlsByDF1NJN0W/G6O3NXIYM9FCmUSj/2UfpYOs="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/search.png",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/search.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uUqxoijKX3CuICNRhQaHMkID+EkEDMpx/YpCnnIj8Ik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uUqxoijKX3CuICNRhQaHMkID+EkEDMpx/YpCnnIj8Ik="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/search.venvhbb3z7.png",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/search.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uUqxoijKX3CuICNRhQaHMkID+EkEDMpx/YpCnnIj8Ik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "venvhbb3z7"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/search.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uUqxoijKX3CuICNRhQaHMkID+EkEDMpx/YpCnnIj8Ik="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/strategy1_1.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/strategy1_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"laP2sWDajuUXjV3O3/iOfTKGSV/oQzp9nsRKu+1FcyU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-laP2sWDajuUXjV3O3/iOfTKGSV/oQzp9nsRKu+1FcyU="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/strategy1_1.xhtddoo3w7.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/strategy1_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"laP2sWDajuUXjV3O3/iOfTKGSV/oQzp9nsRKu+1FcyU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xhtddoo3w7"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/strategy1_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-laP2sWDajuUXjV3O3/iOfTKGSV/oQzp9nsRKu+1FcyU="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/strategy1_2.hgsazf956a.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/strategy1_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43433"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b+JK3x9Eri6old5hYizivcePOZNVnt0eHRC9w8h31e8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hgsazf956a"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/strategy1_2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b+JK3x9Eri6old5hYizivcePOZNVnt0eHRC9w8h31e8="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/strategy1_2.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/strategy1_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43433"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b+JK3x9Eri6old5hYizivcePOZNVnt0eHRC9w8h31e8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b+JK3x9Eri6old5hYizivcePOZNVnt0eHRC9w8h31e8="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/strategy1_3.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/strategy1_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wR57q69U51NbEFBeq3HvqtoD7cIldFjyizlaopc7l4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wR57q69U51NbEFBeq3HvqtoD7cIldFjyizlaopc7l4="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/strategy1_3.njrqvir91p.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/strategy1_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wR57q69U51NbEFBeq3HvqtoD7cIldFjyizlaopc7l4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "njrqvir91p"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/strategy1_3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wR57q69U51NbEFBeq3HvqtoD7cIldFjyizlaopc7l4="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/strategy1_4.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/strategy1_4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A4zPBAuywzolJDuS6L4sCu8yAXnN8YFOi0iui0M+JvE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A4zPBAuywzolJDuS6L4sCu8yAXnN8YFOi0iui0M+JvE="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/strategy1_4.nj4kgeb2wk.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/strategy1_4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A4zPBAuywzolJDuS6L4sCu8yAXnN8YFOi0iui0M+JvE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nj4kgeb2wk"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/strategy1_4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A4zPBAuywzolJDuS6L4sCu8yAXnN8YFOi0iui0M+JvE="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/symbol_flagofisrael.buii83n4iz.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/symbol_flagofisrael.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10822"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"45M7DMbEYqNF4ZNtgHxKK9CvDgXuM8vV0s/Dv/MJtFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "buii83n4iz"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/symbol_flagofisrael.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-45M7DMbEYqNF4ZNtgHxKK9CvDgXuM8vV0s/Dv/MJtFw="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/symbol_flagofisrael.jpg",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/symbol_flagofisrael.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10822"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"45M7DMbEYqNF4ZNtgHxKK9CvDgXuM8vV0s/Dv/MJtFw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-45M7DMbEYqNF4ZNtgHxKK9CvDgXuM8vV0s/Dv/MJtFw="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/toplogonew.png",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/toplogonew.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18171"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"07+8cKZnTHg3cdzyh+1pWWoVjxGcedj/Xaen3wNuTeA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-07+8cKZnTHg3cdzyh+1pWWoVjxGcedj/Xaen3wNuTeA="
+        }
+      ]
+    },
+    {
+      "Route": "Photos/toplogonew.v1ha3m54ac.png",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Photos/toplogonew.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18171"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"07+8cKZnTHg3cdzyh+1pWWoVjxGcedj/Xaen3wNuTeA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v1ha3m54ac"
+        },
+        {
+          "Name": "label",
+          "Value": "Photos/toplogonew.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-07+8cKZnTHg3cdzyh+1pWWoVjxGcedj/Xaen3wNuTeA="
         }
       ]
     },
@@ -21981,6 +24289,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-f4KC6VF8R4/7OaOi0DtYx+f5ZZgJJ+W3aEjgpVyg2W4="
+        }
+      ]
+    },
+    {
+      "Route": "Styles/Site.css",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/obj/Debug/net9.0/compressed/jx4y7ne50n-vwa2vi0u1d.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000766871166"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1303"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KdJvNpV1d//5ReAWAshBgdnc8jN+ma5L0P5KhVA+ifA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QdUjMLkYEV/FwRFd6peLSf8rz92T/2qiOYP6c5g0KXw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QdUjMLkYEV/FwRFd6peLSf8rz92T/2qiOYP6c5g0KXw="
+        }
+      ]
+    },
+    {
+      "Route": "Styles/Site.css",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Styles/Site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QdUjMLkYEV/FwRFd6peLSf8rz92T/2qiOYP6c5g0KXw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QdUjMLkYEV/FwRFd6peLSf8rz92T/2qiOYP6c5g0KXw="
+        }
+      ]
+    },
+    {
+      "Route": "Styles/Site.css.gz",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/obj/Debug/net9.0/compressed/jx4y7ne50n-vwa2vi0u1d.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KdJvNpV1d//5ReAWAshBgdnc8jN+ma5L0P5KhVA+ifA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KdJvNpV1d//5ReAWAshBgdnc8jN+ma5L0P5KhVA+ifA="
+        }
+      ]
+    },
+    {
+      "Route": "Styles/Site.vwa2vi0u1d.css",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/obj/Debug/net9.0/compressed/jx4y7ne50n-vwa2vi0u1d.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000766871166"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1303"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KdJvNpV1d//5ReAWAshBgdnc8jN+ma5L0P5KhVA+ifA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QdUjMLkYEV/FwRFd6peLSf8rz92T/2qiOYP6c5g0KXw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vwa2vi0u1d"
+        },
+        {
+          "Name": "label",
+          "Value": "Styles/Site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QdUjMLkYEV/FwRFd6peLSf8rz92T/2qiOYP6c5g0KXw="
+        }
+      ]
+    },
+    {
+      "Route": "Styles/Site.vwa2vi0u1d.css",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/wwwroot/Styles/Site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QdUjMLkYEV/FwRFd6peLSf8rz92T/2qiOYP6c5g0KXw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vwa2vi0u1d"
+        },
+        {
+          "Name": "label",
+          "Value": "Styles/Site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QdUjMLkYEV/FwRFd6peLSf8rz92T/2qiOYP6c5g0KXw="
+        }
+      ]
+    },
+    {
+      "Route": "Styles/Site.vwa2vi0u1d.css.gz",
+      "AssetFile": "/home/bernard/Projects/SkyMineralsModern/obj/Debug/net9.0/compressed/jx4y7ne50n-vwa2vi0u1d.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KdJvNpV1d//5ReAWAshBgdnc8jN+ma5L0P5KhVA+ifA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Apr 2026 13:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vwa2vi0u1d"
+        },
+        {
+          "Name": "label",
+          "Value": "Styles/Site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KdJvNpV1d//5ReAWAshBgdnc8jN+ma5L0P5KhVA+ifA="
         }
       ]
     }

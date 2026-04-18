@@ -3,7 +3,6 @@
 @{
     ViewData["Title"] = "Staff Management";
     
-    // Check if user is logged in as Administrator
     var role = HttpContext.Session.GetString("Role");
     if (role != "Administrator")
     {
@@ -14,103 +13,36 @@
 <h1>Staff Management</h1>
 <hr />
 
-<!-- Add New Staff Form -->
-<div style="background: #f4f4f4; padding: 20px; margin-bottom: 30px; border-radius: 8px;">
+<div style="background: #f4f4f4; padding: 20px; margin-bottom: 30px;">
     <h3>Add New Staff</h3>
     <form method="post">
         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
-            <div>
-                <label>First Name:</label>
-                <input type="text" asp-for="NewStaff.Fname" style="width: 100%; padding: 8px;" required />
-            </div>
-            <div>
-                <label>Last Name:</label>
-                <input type="text" asp-for="NewStaff.Lname" style="width: 100%; padding: 8px;" required />
-            </div>
-            <div>
-                <label>Email:</label>
-                <input type="email" asp-for="NewStaff.Email" style="width: 100%; padding: 8px;" required />
-            </div>
-            <div>
-                <label>Phone:</label>
-                <input type="text" asp-for="NewStaff.Phone" style="width: 100%; padding: 8px;" required />
-            </div>
-            <div>
-                <label>Sex:</label>
-                <select asp-for="NewStaff.Sex" style="width: 100%; padding: 8px;">
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                </select>
-            </div>
-            <div>
-                <label>Username:</label>
-                <input type="text" asp-for="NewStaff.Username" style="width: 100%; padding: 8px;" required />
-            </div>
-            <div>
-                <label>Password:</label>
-                <input type="password" asp-for="NewStaff.Password" style="width: 100%; padding: 8px;" required />
-            </div>
-            <div>
-                <label>Role:</label>
-                <select asp-for="NewStaff.Role" style="width: 100%; padding: 8px;">
-                    <option value="Administrator">Administrator</option>
-                    <option value="Manager">Manager</option>
-                    <option value="Seller">Seller</option>
-                    <option value="Production">Production</option>
-                </select>
-            </div>
+            <div><label>First Name:</label><input type="text" asp-for="NewStaff.Fname" style="width: 100%;" /></div>
+            <div><label>Last Name:</label><input type="text" asp-for="NewStaff.Lname" style="width: 100%;" /></div>
+            <div><label>Email:</label><input type="email" asp-for="NewStaff.Email" style="width: 100%;" /></div>
+            <div><label>Phone:</label><input type="text" asp-for="NewStaff.Phone" style="width: 100%;" /></div>
+            <div><label>Sex:</label><select asp-for="NewStaff.Sex" style="width: 100%;"><option>Male</option><option>Female</option></select></div>
+            <div><label>Username:</label><input type="text" asp-for="NewStaff.Username" style="width: 100%;" /></div>
+            <div><label>Password:</label><input type="password" asp-for="NewStaff.Password" style="width: 100%;" /></div>
+            <div><label>Role:</label><select asp-for="NewStaff.Role" style="width: 100%;"><option>Administrator</option><option>Manager</option><option>Seller</option><option>Production</option></select></div>
         </div>
-        <button type="submit" style="margin-top: 15px; padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 5px;">Add Staff</button>
+        <button type="submit" style="background: #28a745; color: white; padding: 8px 15px; border: none;">Add Staff</button>
     </form>
 </div>
 
-<!-- Staff List Table -->
 <h3>Existing Staff</h3>
 <table style="width: 100%; border-collapse: collapse;">
-    <thead>
-        <tr style="background: #2c3e50; color: white;">
-            <th style="padding: 10px; text-align: left;">ID</th>
-            <th style="padding: 10px; text-align: left;">Name</th>
-            <th style="padding: 10px; text-align: left;">Email</th>
-            <th style="padding: 10px; text-align: left;">Phone</th>
-            <th style="padding: 10px; text-align: left;">Username</th>
-            <th style="padding: 10px; text-align: left;">Role</th>
-            <th style="padding: 10px; text-align: left;">Actions</th>
-        </tr>
-    </thead>
+    <thead><tr style="background: #465c71; color: white;"><th>ID</th><th>Name</th><th>Email</th><th>Phone</th><th>Username</th><th>Role</th><th>Actions</th></tr></thead>
     <tbody>
-        @if (Model.StaffList != null && Model.StaffList.Any())
+        @foreach (var staff in Model.StaffList)
         {
-            @foreach (var staff in Model.StaffList)
-            {
-                <tr style="border-bottom: 1px solid #ddd;">
-                    <td style="padding: 10px;">@staff.Staff_id</td>
-                    <td style="padding: 10px;">@staff.Fname @staff.Lname</td>
-                    <td style="padding: 10px;">@staff.Email</td>
-                    <td style="padding: 10px;">@staff.Phone</td>
-                    <td style="padding: 10px;">@staff.Username</td>
-                    <td style="padding: 10px;">@staff.Role</td>
-                    <td style="padding: 10px;">
-                        <form method="post" asp-page-handler="Delete" style="display: inline;">
-                            <input type="hidden" name="id" value="@staff.Staff_id" />
-                            <button type="submit" style="background: #dc3545; color: white; border: none; padding: 5px 10px; border-radius: 3px; cursor: pointer;">Delete</button>
-                        </form>
-                    </td>
-                </tr>
-            }
-        }
-        else
-        {
-            <tr>
-                <td colspan="7" style="padding: 20px; text-align: center;">No staff members found.</td>
-            </tr>
+            <tr><td>@staff.Staff_id</td><td>@staff.Fname @staff.Lname</td><td>@staff.Email</td><td>@staff.Phone</td><td>@staff.Username</td><td>@staff.Role</td>
+            <td><form method="post" asp-page-handler="Delete"><input type="hidden" name="id" value="@staff.Staff_id" /><button type="submit" style="background: #dc3545; color: white; border: none; padding: 5px 10px;">Delete</button></form></td></tr>
         }
     </tbody>
 </table>
 
 @if (!string.IsNullOrEmpty(Model.Message))
 {
-    <div style="margin-top: 20px; padding: 10px; background: @(Model.Message.Contains("success") ? "#d4edda" : "#f8d7da"); color: @(Model.Message.Contains("success") ? "#155724" : "#721c24"); border-radius: 5px;">
-        @Model.Message
-    </div>
+    <div style="background: #d4edda; color: #155724; padding: 10px; margin-top: 15px;">@Model.Message</div>
 }

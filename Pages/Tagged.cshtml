@@ -10,65 +10,32 @@
     }
 }
 
-<h1 style="color: #2c3e50;">Tagged Minerals Management</h1>
+<h1>Tagged Minerals</h1>
 <hr />
 
-<!-- Add New Tag Form -->
-<div style="background: #f4f4f4; padding: 20px; margin-bottom: 30px; border-radius: 8px;">
+<div style="background: #f4f4f4; padding: 20px; margin-bottom: 30px;">
     <h3>Tag New Mineral</h3>
     <form method="post">
         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
-            <div>
-                <label>Tag Number:</label>
-                <input type="text" asp-for="NewTag.Tag_number" style="width: 100%; padding: 8px;" required />
-            </div>
-            <div>
-                <label>Quantity (kg):</label>
-                <input type="number" step="0.01" asp-for="NewTag.Quantity_tagged" style="width: 100%; padding: 8px;" required />
-            </div>
+            <div><label>Tag Number:</label><input type="text" asp-for="NewTag.Tag_number" style="width: 100%;" /></div>
+            <div><label>Quantity (kg):</label><input type="number" step="0.01" asp-for="NewTag.Quantity_tagged" style="width: 100%;" /></div>
         </div>
-        <button type="submit" style="margin-top: 15px; padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 5px;">Add Tag</button>
+        <button type="submit" style="background: #28a745; color: white; padding: 8px 15px; border: none;">Add Tag</button>
     </form>
 </div>
 
-<!-- Tagged Minerals List -->
-<h3>Tagged Minerals</h3>
+<h3>Tagged Minerals List</h3>
 <table style="width: 100%; border-collapse: collapse;">
-    <thead>
-        <tr style="background: #2c3e50; color: white;">
-            <th style="padding: 10px;">Tag ID</th>
-            <th style="padding: 10px;">Tag Number</th>
-            <th style="padding: 10px;">Quantity (kg)</th>
-            <th style="padding: 10px;">Date</th>
-            <th style="padding: 10px;">Status</th>
-        </tr>
-    </thead>
+    <thead><tr style="background: #465c71; color: white;"><th>Tag ID</th><th>Tag Number</th><th>Quantity</th><th>Date</th><th>Status</th></tr></thead>
     <tbody>
-        @if (Model.TagsList != null && Model.TagsList.Any())
+        @foreach (var tag in Model.TagsList)
         {
-            @foreach (var tag in Model.TagsList)
-            {
-                <tr style="border-bottom: 1px solid #ddd;">
-                    <td style="padding: 10px;">@tag.Tag_id</td>
-                    <td style="padding: 10px;">@tag.Tag_number</td>
-                    <td style="padding: 10px;">@tag.Quantity_tagged</td>
-                    <td style="padding: 10px;">@tag.Tag_date.ToString("yyyy-MM-dd")</td>
-                    <td style="padding: 10px;">@tag.Status</td>
-                </tr>
-            }
-        }
-        else
-        {
-            <tr>
-                <td colspan="5" style="padding: 20px; text-align: center;">No tagged minerals found.</td>
-            </tr>
+            <tr><td>@tag.Tag_id</td><td>@tag.Tag_number</td><td>@tag.Quantity_tagged</td><td>@tag.Tag_date.ToString("yyyy-MM-dd")</td><td>@tag.Status</td></tr>
         }
     </tbody>
 </table>
 
 @if (!string.IsNullOrEmpty(Model.Message))
 {
-    <div style="margin-top: 20px; padding: 10px; background: @(Model.Message.Contains("success") ? "#d4edda" : "#f8d7da"); color: @(Model.Message.Contains("success") ? "#155724" : "#721c24"); border-radius: 5px;">
-        @Model.Message
-    </div>
+    <div style="background: #d4edda; color: #155724; padding: 10px; margin-top: 15px;">@Model.Message</div>
 }
